@@ -328,7 +328,7 @@ tr.error {
 }
 
 /* Forms */
-textarea,input.form-text,select {
+textarea,input.form-text,select,input.form-file {
   border: 1px solid #ccc;
 }
 
@@ -347,9 +347,12 @@ input.form-text:focus,textarea:focus {
   background-color: #F5F9FB;
 }
 
-.form-item input.error,.form-item textarea.error,.form-item select.error
-  {
+.form-item input.error,.form-item textarea.error,.form-item select.error {
   border: 1px solid #F88;
+}
+
+small.red {
+ color:#FF0000;
 }
 
 /* Admin */
