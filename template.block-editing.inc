@@ -9,13 +9,13 @@
 /**
  * Add block editing variables into the block templates.
  *
- * @param $vars
+ * @param $variables
  *   An array of variables to pass to the theme template.
  * @param $hook
  *   The name of the template being rendered ("block" in this case.)
  */
-function liberty_preprocess_block_editing(&$vars, $hook) {
-  $block = $vars['block'];
+function liberty_preprocess_block_editing(&$variables, $hook) {
+  $block = $variables['block'];
   // Display 'edit block' for custom blocks.
   if ($block->module == 'block') {
     $edit_links[] = l('<span>' . t('Edit Block') . '</span>', 'admin/build/block/configure/' . $block->module . '/' . $block->delta,
@@ -73,6 +73,6 @@ function liberty_preprocess_block_editing(&$vars, $hook) {
     );
   }
 
-  $vars['edit_links_array'] = $edit_links;
-  $vars['edit_links'] = '<div class="edit">' . implode(' ', $edit_links) . '</div>';
+  $variables['edit_links_array'] = $edit_links;
+  $variables['edit_links'] = '<div class="edit">' . implode(' ', $edit_links) . '</div>';
 }

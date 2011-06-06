@@ -503,4 +503,9 @@ div.view-display-id-attachment_1 .teaser {
   clear: both;
 }
 
+.admin_links a {
+  padding-left:10px;
+  padding-right:10px;
+}
+
 /* End hide from IE-mac */

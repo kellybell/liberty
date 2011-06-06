@@ -126,6 +126,10 @@ blockquote {
   text-decoration:underline;
 }
 
+.admin_links a:hover {
+  text-decoration:underline;
+}
+
 hr {
   padding: 0px;
   margin: 0px;
