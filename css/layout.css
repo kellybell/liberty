@@ -63,6 +63,8 @@ a#logo {
 
 #banner_area {
   padding: 5px 0;
+  height: 380px;
+  overflow:hidden;
 }
 
 #page {

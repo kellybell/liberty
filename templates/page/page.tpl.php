@@ -153,9 +153,9 @@
           <?php print $title; ?>
         </h1>
         <?php endif; ?>
-        <?php if (!empty($banner_area)): ?>
+        <?php if (!empty($banner)): ?>
         <div id="banner_area">
-          <?php print $banner_area; ?>
+          <?php print $banner; ?>
         </div>
         <?php endif; ?>
       </div>

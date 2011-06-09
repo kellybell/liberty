@@ -70,7 +70,6 @@ thead th {
   border: none;
 }
 
-
 .header_links .block {
   float:right;
 }
@@ -81,6 +80,10 @@ thead th {
 
 #content .block h2 {
   padding-top: 15px;
+}
+
+#banner_area .block {
+ margin-bottom:0;
 }
 
 #footer_bottom .block-menu {

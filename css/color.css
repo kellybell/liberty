@@ -72,11 +72,10 @@ body,table,td {
 
 #banner {
   background-color: #460700;
-  background-repeat: repeat-x;
 }
 
 #banner_main {
-  background: url("../img/banner-main-bg.jpg") no-repeat center top;
+  background: url("../img/banner-main-bg.jpg") repeat-x center top;
 }
 
 #banner_area a {
