@@ -88,6 +88,8 @@ function liberty_preprocess_page(&$variables) {
   $variables['ie7_styles'] = '<link type="text/css" rel="stylesheet" media="all" href="' . $theme_path . '/css/ie6-fixes.css" />' . "\n";
   $variables['ie7_styles'] = '<link type="text/css" rel="stylesheet" media="all" href="' . $theme_path . '/css/ie7-fixes.css" />' . "\n";
   $variables['ie8_styles'] = '<link type="text/css" rel="stylesheet" media="all" href="' . $theme_path . '/css/ie8-fixes.css" />' . "\n";
+  $variables['ie9_styles'] = '<link type="text/css" rel="stylesheet" media="all" href="' . $theme_path . '/css/ie9-fixes.css" />' . "\n";
+
 
   $variables['skip_link'] = '<ul class="acc-hide">
     <li><a href="#content" class="skip-link">Skip to content</a></li>

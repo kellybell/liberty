@@ -23,3 +23,7 @@ html {
   zoom: 1;
   display: block;
 }
+
+#banner_area .emvideo {
+  margin-left:1px;
+}

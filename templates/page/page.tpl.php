@@ -91,6 +91,9 @@
 
 <?php print $head; ?>
 <?php print $styles; ?>
+<!--[if IE 9]>
+  <?php print $ie9_styles; ?>
+<![endif]-->
 <!--[if IE 8]>
   <?php print $ie8_styles; ?>
 <![endif]-->
